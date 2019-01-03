@@ -1,0 +1,43 @@
+<form>
+  <!-- Image placeholder to draw onto the canvas. -->
+  <img id='bgIMG' style="display:none" />
+  <!-- User data entry table. -->
+  <table>
+    <tr>
+      <td>
+        Variation:
+      </td>
+      <td>
+        <select id="variation">
+          </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Number:
+      </td>
+      <td>
+        <input type="text" id="number" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Text:
+      </td>
+      <td>
+        <input t1ype="text" id="mainText" />
+      </td>
+    </tr>
+  </table>
+  <p>
+
+</form>
+<!-- The canvas drawn onto. -->
+<canvas id="canvas" />
+
+<!-- Import styleSheet -->
+<link href="styling.css" rel="stylesheet" />
+
+<!-- Import the JQuery Library. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="manipulation.js"></script>
