@@ -50,6 +50,7 @@ selectedV = first;
 //Create the canvas.
 var canvas = document.getElementById('canvas'),
   ctx = canvas.getContext('2d');
+  setTimeout(redraw, 100);
 redraw();
 
 //Listen for the select box to change.
